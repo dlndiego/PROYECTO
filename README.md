@@ -14,3 +14,6 @@
 > `1.Funcionales: `Pueden entrar 2 tipos de clientes:  <small>(USUARIO REGISTRADO/ USUARIO INVITADO)</small> , podran tener un carro de productos, pueden añadir saldo o pagar direcctamente, tendran varias formas de pagar, una seleccion de idiomas, categorias de productos, y mas...
 > `2.No funcionales: ` La pagina tiene que estar tan optimizada que debe cargar lo mas rapido posible, la pagina debe estar adaptada a cualquier dispositivo, las cuentas de nuestros clientes tienen que ser seguras.
 > - **Seleccionar y justificar las tecnologías principales** 
+> `FRONTEND : HTML,CSS,JS`
+> `BACKEND : PHP\LARAVEL`
+> `BD : MYSQL`
