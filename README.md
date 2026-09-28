@@ -4,7 +4,7 @@
 <html>
     <table>
         <tr>
-            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px alt="gemini"></td>
             <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
             <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
             <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
