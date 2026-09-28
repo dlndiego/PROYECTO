@@ -1,5 +1,20 @@
 # `DEEP SOUND`
+- **HERRAMIENTAS** USADAS PARA EL **PROYECTO**
 
+<html>
+    <table>
+        <tr>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+        </tr>
+    </table>
+</html>
+
+--- 
 >[!NOTE]
 > **MEMORIA DEL PROYECTO**
 > - **Identificar una necesidad o problema real:**
@@ -17,3 +32,18 @@
 > >`FRONTEND : HTML,CSS,JS`
 > `BACKEND : PHP\LARAVEL`
 > `BD : MYSQL`
+
+---
+### DISEÑO FISICO
+Para crear una entidad relacion para la empresa necesitaremos:
+
+> [!WARNING]
+> **PROVEDORES** garantiza **PRODUCTOS** a la **EMPRESA**.
+> En la **EMPRESA** trabajan **EMPLEADOS**.
+> La **EMPRESA** tiene unos **CLIENTES**
+> Esos **CLIENTES REGISTRADOS** realizan **VENTAS**
+> Los **CLIENTES** o estan **REGISTRADOS** o son **INVITADOS**
+> **VENTAS** contienen **PRODUCTOS**
+
+![](IMG/EMPRESA.png)
+
