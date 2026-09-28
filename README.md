@@ -4,9 +4,9 @@
 <html>
     <table>
         <tr>
-            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px alt="gemini"></td>
-            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
-            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
+            <td><img src="IMG/HERRAMIENTAS/gemini.png" width=130px alt="gemini"></td>
+            <td><img src="IMG/HERRAMIENTAS/canva.png" width=80px></td>
+            <td><img src="IMG/HERRAMIENTAS/github.png" width=100px></td>
             <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
             <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
             <td><img src="IMG/HERRAMIENTAS/gemini.png" width=100px></td>
@@ -46,4 +46,6 @@ Para crear una entidad relacion para la empresa necesitaremos:
 > **VENTAS** contienen **PRODUCTOS**
 
 ![](IMG/EMPRESA.png)
+
+___
 
