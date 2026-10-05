@@ -49,3 +49,14 @@ Para crear una entidad relacion para la empresa necesitaremos:
 
 ___
 
+| Tipo | Tabla / Entidad | Clave Primaria (PK) | Claves Foráneas (FK) | Campos / Atributos |
+| :--- | :--- | :--- | :--- | :--- |
+| **Entidad Principal** | `EMPRESA` | `id_empresa` | *Ninguna* |id_empresa, nom_empresa, |
+| **Entidad Principal** | `PROVEEDORES` | `id_proveedor` | *Ninguna* |id_provedor, nom_provedor|
+| **Entidad Dependiente** | `EMPLEADOS` | `id_empleado` | `id_empresa` -> `EMPRESA` | id_empleado, id_empresa , nombre , apellido , DNI , correo, salario  |
+| **Entidad Dependiente** | `CLIENTES` (Superclase) | `id_cliente` | `id_empresa` -> `EMPRESA` | cod_cliente |
+| **Subclase** | `REGISTRADOS` | `id_cliente` | `id_cliente` -> `CLIENTES` | |
+| **Subclase** | `INVITADOS` | `id_cliente` | `id_cliente` -> `CLIENTES` | |
+| **Entidad / Relación** | `PRODUCTOS` | `id_producto` | `id_proveedor` -> `PROVEEDORES`, `id_empresa` -> `EMPRESA` | |
+| **Entidad Dependiente** | `VENTAS` | `id_venta` | `id_cliente` -> `REGISTRADOS` | |
+| **Tabla Intermedia** | `DETALLE_VENTA` *(Contiene)* | (`id_venta`, `id_producto`) | `id_venta` -> `VENTAS`, `id_producto` -> `PRODUCTOS` | |
